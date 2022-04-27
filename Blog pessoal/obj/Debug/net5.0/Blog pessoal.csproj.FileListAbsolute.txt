@@ -1,0 +1,22 @@
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\bin\Debug\net5.0\appsettings.json
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\bin\Debug\net5.0\Blog pessoal.exe
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\bin\Debug\net5.0\Blog pessoal.deps.json
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\bin\Debug\net5.0\Blog pessoal.runtimeconfig.json
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\bin\Debug\net5.0\Blog pessoal.runtimeconfig.dev.json
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\bin\Debug\net5.0\Blog pessoal.dll
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\bin\Debug\net5.0\Blog pessoal.pdb
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\Blog pessoal.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\Blog pessoal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\Blog pessoal.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\Blog pessoal.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\Blog pessoal.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\Blog pessoal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\scopedcss\bundle\Blog pessoal.styles.css
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\staticwebassets\Blog pessoal.StaticWebAssets.Manifest.cache
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\Blog pessoal.RazorTargetAssemblyInfo.cache
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\Blog pessoal.dll
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\refint\Blog pessoal.dll
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\Blog pessoal.pdb
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\Blog pessoal.genruntimeconfig.cache
+C:\Users\Carlos\Desktop\curso .NET\atividades git\Blog pessoal\Blog pessoal\obj\Debug\net5.0\ref\Blog pessoal.dll
