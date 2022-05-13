@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
-using Blog_pessoal.src.modelos;
+using System.Threading.Tasks;
 using BlogPessoal.src.dtos;
+using BlogPessoal.src.modelos;
 
 /// <summary>
 /// <para>Resumo: Responsavel por representar ações de CRUD de tema</para>
@@ -10,9 +11,10 @@ using BlogPessoal.src.dtos;
 /// </summary>
 public interface ITema
 {
-    void NovoTema(NovoTemaDTO tema);
-    void AtualizarTema(AtualizarTemaDTO tema);
-    void DeletarTema(int id);
-    TemaModelo PegarTemaPeloId(int id);
-    List<TemaModelo> PegarTemaPelaDescricao(string descricao);
+    Task<List<TemaModelo>> PegarTodosTemasAsync();
+    Task<TemaModelo> PegarTemaPeloIdAsync(int id);
+    Task<List<TemaModelo>> PegarTemasPelaDescricaoAsync(string descricao);
+    Task NovoTemaAsync(NovoTemaDTO tema);
+    Task AtualizarTemaAsync(AtualizarTemaDTO tema);
+    Task DeletarTemaAsync(int id);
 }

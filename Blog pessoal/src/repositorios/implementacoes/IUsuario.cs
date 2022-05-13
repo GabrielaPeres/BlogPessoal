@@ -1,5 +1,7 @@
-﻿using Blog_pessoal.src.modelos;
-using BlogPessoal.src.dtos;
+﻿using BlogPessoal.src.dtos;
+using BlogPessoal.src.modelos;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace BlogPessoal.src.repositorios
 {
@@ -11,12 +13,12 @@ namespace BlogPessoal.src.repositorios
     /// </summary>
     public interface IUsuario
     {
-        void NovoUsuario(NovoUsuarioDTO usuario);
-        void AtualizarUsuario(AtualizarUsuarioDTO usuario);
-        void DeletarUsuario(int Id);
-        UsuarioModelo PegarUsuarioPeloId(int Id);
-        UsuarioModelo PegarPeloEmail(string email);
-        UsuarioModelo PegarPeloNome(string email);
+        Task<UsuarioModelo> PegarUsuarioPeloIdAsync(int id);
+        Task<List<UsuarioModelo>> PegarUsuariosPeloNomeAsync(string nome);
+        Task<UsuarioModelo> PegarUsuarioPeloEmailAsync(string email);
+        Task NovoUsuarioAsync(NovoUsuarioDTO usuario);
+        Task AtualizarUsuarioAsync(AtualizarUsuarioDTO usuario);
+        Task DeletarUsuarioAsync(int id);
     }
 }
 

@@ -1,28 +1,26 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Blog_pessoal.src.modelos
-    {
+namespace BlogPessoal.src.modelos
+{
+    [Table("tb_postagens")]
     public class PostagemModelo
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        [Required]
-        [StringLength(30)]
+        [Required, StringLength(30)]
         public string Titulo { get; set; }
 
-        [Required]
-        [StringLength(100)]
+        [Required, StringLength(100)]
         public string Descricao { get; set; }
 
         public string Foto { get; set; }
 
-        [ForeignKey("fk_usuario")]
-        public UsuarioModelo  Criador { get; set; }
+        [ForeignKey("fk_usuario"), InverseProperty("MinhasPostagens")]
+        public UsuarioModelo Criador { get; set; }
 
-        [ForeignKey("fk_tema")]
+        [ForeignKey("fk_tema"), InverseProperty("PostagensRelacionadas")]
         public TemaModelo Tema { get; set; }
     }
 }
